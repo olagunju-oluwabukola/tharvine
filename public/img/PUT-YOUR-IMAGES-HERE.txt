@@ -1,0 +1,5 @@
+Drop your real product photos in this folder using the filenames
+referenced in src/data/products.js (e.g. "EKO SERIES II (Front).png").
+
+If your actual filenames are different, either rename your files to match,
+or edit the paths in src/data/products.js to match your files.

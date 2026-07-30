@@ -1,25 +1,23 @@
-// Product catalog.
-// coverImg = shown on grid cards (Home / Femme).
-// models = shown on the individual product page (main image + thumbnails).
-// All paths are relative to /public, so drop your real files into /public/img/
-// using these same names (or edit the paths below to match your files).
+
 export const products = [
   {
     id: 'motion-i', name: 'Motion I', price: 21700, category: 'motion',
-    coverImg: '/img/motionfront.PNG',
-    desc: 'Placeholder description — update with real copy for Motion I.',
+    coverImg: '/img/MotionIFront.png',
+    desc: 'A piece built for motion: because a moving man will always meet his luck.',
     material: '', fit: '',
     models: [
-      { label: 'Front View', img: '/img/placeholder-motion-i.png' },
+      { label: 'Front View', img: '/img/MotionIFront.png' },
+      { label: 'Back View', img: '/img/MotionIBack.png' },
     ],
   },
   {
     id: 'motion-ii', name: 'Motion II', price: 21700, category: 'motion',
-    coverImg: '/img/placeholder-motion-ii.png',
-    desc: 'Placeholder description — update with real copy for Motion II.',
+    coverImg: '/img/MotionIIFront.png',
+    desc: 'A piece built for motion: because a moving man will always meet his luck.',
     material: '', fit: '',
     models: [
-      { label: 'Front View', img: '/img/placeholder-motion-ii.png' },
+      { label: 'Front View', img: '/img/MotionIIFront.png' },
+      { label: 'Back View', img: '/img/MotionIIBack.png' },
     ],
   },
   {

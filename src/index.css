@@ -9,7 +9,7 @@ a { color: inherit; }
 /* Aspect-ratio box that never collapses to 0 height, even on browsers
    without `aspect-ratio` support (fixes the "image invisible until you
    click something" bug from the old vanilla-JS version). */
-.ar-box { position: relative; height: 0; overflow: hidden; background: var(--cream); }
+.ar-box { position: relative; height: 0; overflow: hidden; background: var(--white); }
 .ar-box.ar-3-4 { padding-top: 133.33%; }
 .ar-box.ar-4-5 { padding-top: 125%; }
 @supports (aspect-ratio: 1) {

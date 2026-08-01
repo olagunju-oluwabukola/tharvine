@@ -1,7 +1,7 @@
 
 export const products = [
   {
-    id: 'motion-i', name: 'Motion I', price: 21700, category: 'motion',
+    id: 'motion-i', name: 'Motion I', price: 25000, category: 'motion',
     coverImg: '/img/MotionIFront.png',
     desc: 'A piece built for motion: because a moving man will always meet his luck.',
     material: '', fit: '',
@@ -11,7 +11,7 @@ export const products = [
     ],
   },
   {
-    id: 'motion-ii', name: 'Motion II', price: 21700, category: 'motion',
+    id: 'motion-ii', name: 'Motion II', price: 25000, category: 'motion',
     coverImg: '/img/MotionIIFront.png',
     desc: 'A piece built for motion: because a moving man will always meet his luck.',
     material: '', fit: '',

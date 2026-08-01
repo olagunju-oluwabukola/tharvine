@@ -5,7 +5,7 @@ import SmartImage from '../components/SmartImage'
 import { products } from '../data/products'
 import { useCart } from '../context/CartContext'
 
-const SIZES = ['XS', 'S', 'M', 'L']
+const SIZES = ['L', 'XL', 'XXL']
 
 export default function ProductPage() {
   const { id } = useParams()
@@ -89,7 +89,7 @@ export default function ProductPage() {
                 {size}
               </button>
             ))}
-            <button className="size-btn unavailable" disabled>XL</button>
+
           </div>
 
           <button className="add-to-cart-btn" onClick={handleAddToCart}>

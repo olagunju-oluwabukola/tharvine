@@ -1,6 +1,26 @@
 
 export const products = [
   {
+    id: 'Motion-Cropped-Shirt', name: 'Motion Cropped Shirt', price: 23000, category: 'motion',
+    coverImg: '/img/shirt_front.PNG',
+    desc: 'A piece built for motion: because a moving man will always meet his luck.',
+    material: '', fit: '',
+    models: [
+      { label: 'Front View', img: '/img/shirt_front.PNG' },
+      { label: 'Back View', img: '/img/shirt_back.PNG' },
+    ],
+  },
+  {
+    id: 'Motion-jersey', name: 'Motion Jersey', price: 27000, category: 'motion',
+    coverImg: '/img/jersey_front.PNG',
+    desc: 'A piece built for motion: because a moving man will always meet his luck.',
+    material: '', fit: '',
+    models: [
+      { label: 'Front View', img: '/img/jersey_front.PNG' },
+      { label: 'Back View', img: '/img/jersey_front.PNG' },
+    ],
+  },
+  {
     id: 'motion-i', name: 'Motion I', price: 25000, category: 'motion',
     coverImg: '/img/MotionIFront.png',
     desc: 'A piece built for motion: because a moving man will always meet his luck.',

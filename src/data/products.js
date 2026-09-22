@@ -17,7 +17,7 @@ export const products = [
     material: '', fit: '',
     models: [
       { label: 'Front View', img: '/img/jersey_front.PNG' },
-      { label: 'Back View', img: '/img/jersey_front.PNG' },
+      { label: 'Back View', img: '/img/jersey_back.jpeg' },
     ],
   },
   {
